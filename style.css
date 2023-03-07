@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    background-color:bisque;
+    width: 1068px;
+    height: 1189vh;
+    font-family:'Fira Sans',sans-serif;
+}
+.sidebar nav {
+    padding: 25px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text- decoration: none;
+    color:black;
+}
+.main{
+    background-color: azure;
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(110, 211, 248);
+    height: 75vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Source Code Pro',monospace;
+}
+.shrishti{
+    font-size:80px;
+}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size:60px;
+    font-weight: bold;
+}
+.about{
+    font-size:40px;
+}
+.moreabout{
+    fontsize:25 px;
+    font-family:'Fira Sans',sans-serif;
+}
+.button{
+    margin-top: 40px;
+}
+.buttons button {
+    padding: 9 px 14px;
+    border-radius: 22px;
+    color:black;
+    background-color:rgb(252, 220, 181);
+    font-weight:bold;
+    font-size:20px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    backgroung-color:black;
+    color:rgb(252,220,181);
+}
+.devPic img{
+    width: 245px;
+}
